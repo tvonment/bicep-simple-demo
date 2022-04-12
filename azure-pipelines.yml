@@ -4,7 +4,7 @@ trigger:
 name: Deploy Bicep file
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 variables:
   azureServiceConnection: 'MyDemoConnection'
