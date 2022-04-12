@@ -13,6 +13,8 @@ variables:
   templateFile: 'main.bicep'
 
 steps:
+- 
+- task: ChuckNorrisTask@0
 - task: AzureCLI@2
   inputs:
     azureSubscription: $(azureServiceConnection)
